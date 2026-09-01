@@ -1,0 +1,502 @@
+{
+  "metadata": {
+    "league_id": 219725,
+    "scoring_format": "PPR",
+    "reception_points": 0.5,
+    "last_updated": "2026-09-01",
+    "note": "Multi-source ADP data aggregated from FantasyPros, Yahoo, ESPN, and DraftKings"
+  },
+  "players": [
+    {
+      "rank": 1,
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "nfl_team": "Cin",
+      "adp": {
+        "fantasypros": 1.2,
+        "yahoo": 1.3,
+        "espn": 1.4,
+        "draftkings": 1.1,
+        "consensus": 1.25
+      },
+      "bye_week": 7,
+      "injury_status": "Healthy",
+      "role": "WR1 - Primary receiver, high-volume target",
+      "scheme_fit": "Joe Burrow top target, elite ceiling",
+      "contract_status": "Under contract through 2025, extension eligible",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 2,
+      "name": "Bijan Robinson",
+      "position": "RB",
+      "nfl_team": "Atl",
+      "adp": {
+        "fantasypros": 2.1,
+        "yahoo": 2.0,
+        "espn": 2.3,
+        "draftkings": 1.9,
+        "consensus": 2.08
+      },
+      "bye_week": 9,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back, pass-catching upside",
+      "scheme_fit": "Falcons commit heavy volume, strong role security",
+      "contract_status": "2nd year contract, locked in long-term",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 3,
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "nfl_team": "Phi",
+      "adp": {
+        "fantasypros": 2.8,
+        "yahoo": 2.5,
+        "espn": 2.7,
+        "draftkings": 2.9,
+        "consensus": 2.73
+      },
+      "bye_week": 5,
+      "injury_status": "Healthy",
+      "role": "RB1 - Heavy workload, goal-line back",
+      "scheme_fit": "Eagles strong run game, new scheme fits his skillset",
+      "contract_status": "Contract year - could be trade candidate",
+      "risk_level": "Medium"
+    },
+    {
+      "rank": 4,
+      "name": "Jahmyr Gibbs",
+      "position": "RB",
+      "nfl_team": "Det",
+      "adp": {
+        "fantasypros": 3.0,
+        "yahoo": 3.2,
+        "espn": 2.9,
+        "draftkings": 3.1,
+        "consensus": 3.05
+      },
+      "bye_week": 9,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back, pass-catching specialist",
+      "scheme_fit": "Ben Johnson offense built for Gibbs, elite upside",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 5,
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "nfl_team": "Dal",
+      "adp": {
+        "fantasypros": 3.5,
+        "yahoo": 3.6,
+        "espn": 3.4,
+        "draftkings": 3.7,
+        "consensus": 3.55
+      },
+      "bye_week": 9,
+      "injury_status": "Healthy",
+      "role": "WR1 - Primary receiver, volume leader",
+      "scheme_fit": "Dak's top target, consistent volume",
+      "contract_status": "Under contract, eligible for extension",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 6,
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "nfl_team": "Min",
+      "adp": {
+        "fantasypros": 4.0,
+        "yahoo": 4.1,
+        "espn": 3.9,
+        "draftkings": 4.2,
+        "consensus": 4.05
+      },
+      "bye_week": 12,
+      "injury_status": "Healthy",
+      "role": "WR1 - Elite receiver, target hog",
+      "scheme_fit": "Vikings passing offense, consistent target share",
+      "contract_status": "Under contract through 2027",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 7,
+      "name": "Nico Collins",
+      "position": "WR",
+      "nfl_team": "Hou",
+      "adp": {
+        "fantasypros": 4.5,
+        "yahoo": 4.3,
+        "espn": 4.7,
+        "draftkings": 4.4,
+        "consensus": 4.48
+      },
+      "bye_week": 11,
+      "injury_status": "Healthy",
+      "role": "WR1 - C.J. Stroud's top option",
+      "scheme_fit": "New offensive system, elite QB, high volume expected",
+      "contract_status": "Under contract, extension likely",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 8,
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "nfl_team": "Det",
+      "adp": {
+        "fantasypros": 5.0,
+        "yahoo": 5.2,
+        "espn": 4.9,
+        "draftkings": 5.1,
+        "consensus": 5.05
+      },
+      "bye_week": 9,
+      "injury_status": "Recovering from injury",
+      "role": "WR1/Slot - High-volume target, slot specialist",
+      "scheme_fit": "Ben Johnson offense, perfect fit for role",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Medium (injury recovery)"
+    },
+    {
+      "rank": 9,
+      "name": "Puka Nacua",
+      "position": "WR",
+      "nfl_team": "LAR",
+      "adp": {
+        "fantasypros": 5.5,
+        "yahoo": 5.3,
+        "espn": 5.6,
+        "draftkings": 5.4,
+        "consensus": 5.45
+      },
+      "bye_week": 8,
+      "injury_status": "Recent back issues",
+      "role": "WR1 - Primary target for Stafford",
+      "scheme_fit": "Stafford chemistry established, high ceiling",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Medium (injury history)"
+    },
+    {
+      "rank": 10,
+      "name": "Derrick Henry",
+      "position": "RB",
+      "nfl_team": "Bal",
+      "adp": {
+        "fantasypros": 6.0,
+        "yahoo": 5.9,
+        "espn": 6.1,
+        "draftkings": 5.8,
+        "consensus": 5.95
+      },
+      "bye_week": 9,
+      "injury_status": "Healthy",
+      "role": "RB1 - Goal-line back, red zone specialist",
+      "scheme_fit": "Ravens run-heavy scheme, elite opportunity",
+      "contract_status": "1-year deal, free agent after 2025",
+      "risk_level": "Medium (age, contract year)"
+    },
+    {
+      "rank": 11,
+      "name": "Drake London",
+      "position": "WR",
+      "nfl_team": "Atl",
+      "adp": {
+        "fantasypros": 11.2,
+        "yahoo": 11.5,
+        "espn": 11.0,
+        "draftkings": 11.3,
+        "consensus": 11.25
+      },
+      "bye_week": 9,
+      "injury_status": "Healthy",
+      "role": "WR2 - Second option, developing role",
+      "scheme_fit": "Falcons building WR corps, improving trajectory",
+      "contract_status": "Under contract, young talent",
+      "risk_level": "Low-Medium"
+    },
+    {
+      "rank": 12,
+      "name": "Kyren Williams",
+      "position": "RB",
+      "nfl_team": "LAR",
+      "adp": {
+        "fantasypros": 11.0,
+        "yahoo": 11.2,
+        "espn": 10.8,
+        "draftkings": 11.4,
+        "consensus": 11.1
+      },
+      "bye_week": 8,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back in Sean McVay offense",
+      "scheme_fit": "McVay pass-catching back system, ideal fit",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 13,
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "nfl_team": "SF",
+      "adp": {
+        "fantasypros": 12.5,
+        "yahoo": 12.3,
+        "espn": 12.7,
+        "draftkings": 12.4,
+        "consensus": 12.48
+      },
+      "bye_week": 8,
+      "injury_status": "Recovering from knee",
+      "role": "RB1 - Elite when healthy, pass-catching",
+      "scheme_fit": "Kyle Shanahan system perfect for CMC",
+      "contract_status": "Under contract through 2027",
+      "risk_level": "Medium-High (injury recovery)"
+    },
+    {
+      "rank": 14,
+      "name": "Malik Nabers",
+      "position": "WR",
+      "nfl_team": "NYG",
+      "adp": {
+        "fantasypros": 12.8,
+        "yahoo": 13.0,
+        "espn": 12.6,
+        "draftkings": 13.2,
+        "consensus": 12.9
+      },
+      "bye_week": 8,
+      "injury_status": "Healthy",
+      "role": "WR1 - Premier receiving talent, primary option",
+      "scheme_fit": "Giants rebuilding, high target share expected",
+      "contract_status": "Rookie contract, long-term asset",
+      "risk_level": "Low (young, drafted high)"
+    },
+    {
+      "rank": 15,
+      "name": "Ashton Jeanty",
+      "position": "RB",
+      "nfl_team": "LV",
+      "adp": {
+        "fantasypros": 13.2,
+        "yahoo": 13.5,
+        "espn": 13.0,
+        "draftkings": 13.3,
+        "consensus": 13.25
+      },
+      "bye_week": 10,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back, elite college production",
+      "scheme_fit": "Raiders high-draft investment, feature back role",
+      "contract_status": "Rookie contract",
+      "risk_level": "Low-Medium"
+    },
+    {
+      "rank": 16,
+      "name": "Brian Thomas Jr.",
+      "position": "WR",
+      "nfl_team": "Jax",
+      "adp": {
+        "fantasypros": 13.8,
+        "yahoo": 14.0,
+        "espn": 13.6,
+        "draftkings": 14.2,
+        "consensus": 13.9
+      },
+      "bye_week": 11,
+      "injury_status": "Healthy",
+      "role": "WR1/2 - High-talent young receiver",
+      "scheme_fit": "Jaguars rebuilding receiving corps, opportunity",
+      "contract_status": "Rookie contract",
+      "risk_level": "Low-Medium"
+    },
+    {
+      "rank": 17,
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "nfl_team": "GB",
+      "adp": {
+        "fantasypros": 14.5,
+        "yahoo": 14.3,
+        "espn": 14.7,
+        "draftkings": 14.4,
+        "consensus": 14.48
+      },
+      "bye_week": 12,
+      "injury_status": "Healthy",
+      "role": "RB1 - Power back, goal-line specialist",
+      "scheme_fit": "Packers run-heavy approach, strong volume",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 18,
+      "name": "A.J. Brown",
+      "position": "WR",
+      "nfl_team": "NE",
+      "adp": {
+        "fantasypros": 15.0,
+        "yahoo": 14.8,
+        "espn": 15.2,
+        "draftkings": 14.9,
+        "consensus": 15.0
+      },
+      "bye_week": 6,
+      "injury_status": "Healthy",
+      "role": "WR1 - Elite talent, new team adjustment",
+      "scheme_fit": "Patriots new system, learning curve expected",
+      "contract_status": "Under contract through 2025",
+      "risk_level": "Medium (new team)"
+    },
+    {
+      "rank": 19,
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "nfl_team": "Ind",
+      "adp": {
+        "fantasypros": 15.5,
+        "yahoo": 15.7,
+        "espn": 15.3,
+        "draftkings": 15.6,
+        "consensus": 15.53
+      },
+      "bye_week": 10,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back, volume producer",
+      "scheme_fit": "Colts rushing attack, primary option",
+      "contract_status": "Under contract through 2025",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 20,
+      "name": "Chase Brown",
+      "position": "RB",
+      "nfl_team": "Cin",
+      "adp": {
+        "fantasypros": 16.0,
+        "yahoo": 16.2,
+        "espn": 15.8,
+        "draftkings": 16.1,
+        "consensus": 16.03
+      },
+      "bye_week": 7,
+      "injury_status": "Healthy",
+      "role": "RB1 - Lead back, primary carrier",
+      "scheme_fit": "Bengals ground game priority, strong volume",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Low"
+    }
+  ],
+  "te_tier_1": [
+    {
+      "rank": 21,
+      "name": "Brock Bowers",
+      "position": "TE",
+      "nfl_team": "LV",
+      "adp": {
+        "fantasypros": 17.5,
+        "yahoo": 17.3,
+        "espn": 17.7,
+        "draftkings": 17.4,
+        "consensus": 17.48
+      },
+      "role": "TE1 - Elite prospect, high pass-catching upside",
+      "contract_status": "Rookie contract",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 22,
+      "name": "Trey McBride",
+      "position": "TE",
+      "nfl_team": "Ari",
+      "adp": {
+        "fantasypros": 18.2,
+        "yahoo": 18.5,
+        "espn": 18.0,
+        "draftkings": 18.3,
+        "consensus": 18.25
+      },
+      "role": "TE1 - Primary target, elite talent",
+      "contract_status": "Under contract through 2026",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 23,
+      "name": "George Kittle",
+      "position": "TE",
+      "nfl_team": "SF",
+      "adp": {
+        "fantasypros": 18.8,
+        "yahoo": 19.1,
+        "espn": 18.6,
+        "draftkings": 19.0,
+        "consensus": 18.88
+      },
+      "role": "TE1 - Elite blocker and receiver, health concern",
+      "contract_status": "Under contract through 2025",
+      "risk_level": "Medium (injury history)"
+    }
+  ],
+  "qb_tier_1": [
+    {
+      "rank": 24,
+      "name": "Josh Allen",
+      "position": "QB",
+      "nfl_team": "Buf",
+      "adp": {
+        "fantasypros": 25.5,
+        "yahoo": 25.3,
+        "espn": 25.7,
+        "draftkings": 25.4,
+        "consensus": 25.48
+      },
+      "role": "QB - Elite dual-threat, MVP caliber",
+      "contract_status": "Under contract through 2027",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 25,
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "nfl_team": "Bal",
+      "adp": {
+        "fantasypros": 26.0,
+        "yahoo": 26.2,
+        "espn": 25.8,
+        "draftkings": 26.1,
+        "consensus": 26.03
+      },
+      "role": "QB - Elite dual-threat, high ceiling",
+      "contract_status": "Under contract through 2028",
+      "risk_level": "Low"
+    },
+    {
+      "rank": 26,
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "nfl_team": "Was",
+      "adp": {
+        "fantasypros": 26.5,
+        "yahoo": 26.7,
+        "espn": 26.3,
+        "draftkings": 26.8,
+        "consensus": 26.58
+      },
+      "role": "QB - Young talent, dual-threat upside",
+      "contract_status": "Rookie contract",
+      "risk_level": "Medium (rookie)"
+    }
+  ],
+  "scarcity_thresholds": {
+    "rb_elite_count": 12,
+    "wr_elite_count": 20,
+    "te_elite_count": 3,
+    "qb_elite_count": 5,
+    "warning_levels": {
+      "critical": 0.25,
+      "warning": 0.5,
+      "watch": 0.75
+    }
+  }
+}
