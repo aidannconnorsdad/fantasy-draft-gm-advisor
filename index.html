@@ -203,21 +203,67 @@
         .pick-team {
             font-size: 0.9em;
             color: #aaa;
+            margin-bottom: 8px;
+        }
+        
+        .pick-role {
+            font-size: 0.85em;
+            color: #90ee90;
+            margin-bottom: 8px;
+            font-style: italic;
         }
         
         .adp-comparison {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
+            gap: 8px;
             margin-top: 8px;
-            font-size: 0.85em;
+            font-size: 0.8em;
         }
         
         .adp-source {
             background: rgba(255, 255, 255, 0.05);
-            padding: 5px 8px;
+            padding: 6px 8px;
             border-radius: 3px;
             text-align: center;
+            border: 1px solid rgba(0, 212, 255, 0.3);
+        }
+        
+        .adp-variance {
+            background: rgba(255, 165, 0, 0.15);
+            border: 1px solid #ffa500;
+            padding: 6px;
+            border-radius: 3px;
+            text-align: center;
+            font-weight: bold;
+            color: #ffa500;
+        }
+        
+        .risk-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            font-weight: bold;
+            margin-top: 6px;
+        }
+        
+        .risk-low {
+            background: rgba(50, 200, 50, 0.2);
+            color: #32c832;
+            border: 1px solid #32c832;
+        }
+        
+        .risk-medium {
+            background: rgba(255, 165, 0, 0.2);
+            color: #ffa500;
+            border: 1px solid #ffa500;
+        }
+        
+        .risk-high {
+            background: rgba(255, 0, 0, 0.2);
+            color: #ff6b6b;
+            border: 1px solid #ff6b6b;
         }
         
         .draft-log {
@@ -294,6 +340,12 @@
         .remove-btn:hover {
             background: #ff4444;
         }
+        
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #00d4ff;
+        }
     </style>
 </head>
 <body>
@@ -309,7 +361,8 @@
             <div class="input-section">
                 <input type="number" id="pickNumber" placeholder="Pick #" min="1" max="100">
                 <input type="text" id="teamName" placeholder="Team Name">
-                <input type="text" id="playerName" placeholder="Player Name">
+                <input type="text" id="playerName" placeholder="Player Name" list="playerList">
+                <datalist id="playerList"></datalist>
                 <select id="playerPosition">
                     <option value="">Select Position</option>
                     <option value="QB">QB</option>
@@ -365,7 +418,7 @@
         <div class="panel" style="margin-bottom: 30px;">
             <div class="panel-title">🎯 Next Best Available (Recommendations)</div>
             <div id="recommendedPicks">
-                <div class="empty-message">Loading player data...</div>
+                <div class="loading">Loading player data...</div>
             </div>
         </div>
         
@@ -396,26 +449,42 @@
             DEF: 1
         };
         
-        const ROSTER_SIZE = 16; // 1 QB + 2 RB + 2 WR + 1 TE + 1 FLEX + 1 K + 1 DEF + 7 bench
+        const ROSTER_SIZE = 16;
         
-        // Mock Player Data with ADP (will be replaced with real data)
-        const mockPlayers = [
-            { name: "Ja'Marr Chase", pos: "WR", team: "Cin", adp: 1.5, auctionValue: 68 },
-            { name: "Bijan Robinson", pos: "RB", team: "Atl", adp: 2.0, auctionValue: 65 },
-            { name: "Saquon Barkley", pos: "RB", team: "Phi", adp: 2.5, auctionValue: 63 },
-            { name: "Jahmyr Gibbs", pos: "RB", team: "Det", adp: 3.0, auctionValue: 60 },
-            { name: "CeeDee Lamb", pos: "WR", team: "Dal", adp: 3.5, auctionValue: 58 },
-            { name: "Justin Jefferson", pos: "WR", team: "Min", adp: 4.0, auctionValue: 56 },
-            { name: "Nico Collins", pos: "WR", team: "Hou", adp: 4.5, auctionValue: 54 },
-            { name: "Amon-Ra St. Brown", pos: "WR", team: "Det", adp: 5.0, auctionValue: 52 },
-            { name: "Puka Nacua", pos: "WR", team: "LAR", adp: 5.5, auctionValue: 50 },
-            { name: "Derrick Henry", pos: "RB", team: "Bal", adp: 6.0, auctionValue: 48 }
-        ];
+        // Load player data from JSON
+        async function loadPlayerData() {
+            try {
+                const response = await fetch('data/players.json');
+                const data = await response.json();
+                
+                // Flatten all players from different tiers
+                draftState.allPlayers = [
+                    ...data.players,
+                    ...data.te_tier_1,
+                    ...data.qb_tier_1
+                ];
+                
+                // Sort by consensus ADP
+                draftState.allPlayers.sort((a, b) => a.adp.consensus - b.adp.consensus);
+                
+                // Populate datalist for autocomplete
+                updateDatalist();
+                updateRecommendations();
+            } catch (error) {
+                console.error('Error loading player data:', error);
+                document.getElementById('recommendedPicks').innerHTML = 
+                    '<div class="empty-message">Error loading player data. Make sure data/players.json exists.</div>';
+            }
+        }
         
-        // Initialize
-        function init() {
-            draftState.allPlayers = [...mockPlayers];
-            updateRecommendations();
+        function updateDatalist() {
+            const datalist = document.getElementById('playerList');
+            datalist.innerHTML = '';
+            draftState.allPlayers.forEach(player => {
+                const option = document.createElement('option');
+                option.value = player.name;
+                datalist.appendChild(option);
+            });
         }
         
         function logDraftPick() {
@@ -446,6 +515,7 @@
             
             // Remove from available players
             draftState.allPlayers = draftState.allPlayers.filter(p => p.name !== playerName);
+            updateDatalist();
             
             // Clear inputs
             document.getElementById('pickNumber').value = '';
@@ -497,7 +567,6 @@
             const positionCounts = {};
             const teamNeeds = {};
             
-            // Count picks by position and team
             draftState.picks.forEach(pick => {
                 positionCounts[pick.position] = (positionCounts[pick.position] || 0) + 1;
                 teamNeeds[pick.team] = (teamNeeds[pick.team] || 0) + 1;
@@ -505,26 +574,32 @@
             
             let html = '';
             
-            // Analyze scarcity
             const rbTaken = positionCounts['RB'] || 0;
             const wrTaken = positionCounts['WR'] || 0;
             const teTaken = positionCounts['TE'] || 0;
             
-            const rbsLeft = 20 - rbTaken; // Rough estimate: ~2 per team
-            const wrsLeft = 20 - wrTaken;
+            // Calculate remaining (rough estimates for 10-team league)
+            const rbsLeft = 20 - rbTaken;
+            const wrsLeft = 25 - wrTaken;
             const tesLeft = 10 - teTaken;
             
-            // Critical alerts
-            if (rbsLeft < 5 && rbTaken < 15) {
+            if (rbsLeft < 5 && rbTaken < 18) {
                 html += `
                     <div class="scarcity-alert critical">
                         <strong>🚨 CRITICAL: RB Scarcity</strong><br>
-                        Only ${rbsLeft} elite RBs remaining. Grab now if needed.
+                        Only ${rbsLeft} RBs remaining. Grab now if needed.
+                    </div>
+                `;
+            } else if (rbsLeft < 10 && rbTaken < 15) {
+                html += `
+                    <div class="scarcity-alert warning">
+                        <strong>⏰ RB Getting Scarce</strong><br>
+                        ${rbsLeft} RBs left. Consider drafting soon.
                     </div>
                 `;
             }
             
-            if (wrTaken < 10 && wrsLeft > 15) {
+            if (wrTaken < 10 && wrsLeft > 20) {
                 html += `
                     <div class="scarcity-alert info">
                         <strong>✅ WR Abundance</strong><br>
@@ -533,11 +608,11 @@
                 `;
             }
             
-            if (teTaken < 2 && tesLeft > 8) {
+            if (teTaken < 1 && tesLeft > 8) {
                 html += `
                     <div class="scarcity-alert warning">
                         <strong>⏰ TE Later Strategy</strong><br>
-                        Most teams waiting on TE. Position will be thin later.
+                        Most teams haven't drafted TE yet. Position will thin out.
                     </div>
                 `;
             }
@@ -549,24 +624,50 @@
             document.getElementById('scarcityAlerts').innerHTML = html;
         }
         
+        function getRiskBadgeClass(riskLevel) {
+            if (riskLevel === 'Low') return 'risk-low';
+            if (riskLevel === 'Medium' || riskLevel === 'Low-Medium' || riskLevel === 'Medium-High') return 'risk-medium';
+            return 'risk-high';
+        }
+        
+        function getAdpVariance(player) {
+            const adps = [
+                player.adp.fantasypros,
+                player.adp.yahoo,
+                player.adp.espn,
+                player.adp.draftkings
+            ];
+            const min = Math.min(...adps);
+            const max = Math.max(...adps);
+            return max - min;
+        }
+        
         function updateRecommendations() {
             const yourPicks = draftState.picks.filter(p => p.team === draftState.yourTeamName);
-            const availablePlayers = draftState.allPlayers.slice(0, 10); // Top 10 available
+            const availablePlayers = draftState.allPlayers.slice(0, 12); // Top 12 available
             
             let html = '';
             if (availablePlayers.length === 0) {
                 html = '<div class="empty-message">No available players to recommend.</div>';
             } else {
                 availablePlayers.forEach((player, idx) => {
+                    const variance = getAdpVariance(player);
+                    const varianceClass = variance > 2 ? 'adp-variance' : '';
+                    
                     html += `
-                        <div class="recommended-pick" onclick="selectPlayer('${player.name}', '${player.pos}')">
+                        <div class="recommended-pick" onclick="selectPlayer('${player.name}', '${player.position}')">
                             <div class="pick-rank">Rank #${idx + 1} Available</div>
                             <div class="pick-name">${player.name}</div>
-                            <div class="pick-team">${player.team} • ${player.pos}</div>
+                            <div class="pick-team">${player.nfl_team} • ${player.position}</div>
+                            <div class="pick-role">${player.role}</div>
                             <div class="adp-comparison">
-                                <div class="adp-source">ADP: ${player.adp}</div>
-                                <div class="adp-source">Expected: ${Math.round(player.adp * 1.1)}</div>
-                                <div class="adp-source">Value: ${player.auctionValue}%</div>
+                                <div class="adp-source">FP: ${player.adp.fantasypros.toFixed(1)}</div>
+                                <div class="adp-source">Yahoo: ${player.adp.yahoo.toFixed(1)}</div>
+                                <div class="adp-source">Consensus: ${player.adp.consensus.toFixed(1)}</div>
+                            </div>
+                            ${variance > 2 ? `<div class="adp-variance">Variance: ${variance.toFixed(1)} (Shop Alert!)</div>` : ''}
+                            <div class="risk-badge ${getRiskBadgeClass(player.risk_level)}">
+                                Risk: ${player.risk_level}
                             </div>
                         </div>
                     `;
@@ -611,18 +712,18 @@
                 draftState = {
                     picks: [],
                     yourTeamName: null,
-                    allPlayers: [...mockPlayers]
+                    allPlayers: []
                 };
                 document.getElementById('pickNumber').value = '';
                 document.getElementById('teamName').value = '';
                 document.getElementById('playerName').value = '';
                 document.getElementById('playerPosition').value = '';
-                updateUI();
+                loadPlayerData();
             }
         }
         
         // Initialize on load
-        window.onload = init;
+        window.onload = loadPlayerData;
     </script>
 </body>
 </html>
