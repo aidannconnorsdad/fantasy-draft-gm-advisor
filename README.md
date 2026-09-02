@@ -1,8 +1,22 @@
 # ⚡ Fantasy Draft GM Advisor
 
-**Real-time NFL fantasy football draft companion with multi-source ADP analysis, positional scarcity alerts, and GM intelligence.**
+**A single, self-contained 2026 NFL fantasy football draft companion** — multi-source ADP comparison, positional scarcity alerts, and richer GM-style insight notes, all in one static HTML page.
 
-Built for serious fantasy managers who want data-driven draft decisions in a high-speed environment.
+Built for serious fantasy managers who want data-driven draft decisions in a high-speed draft-day environment.
+
+---
+
+## What this tool is (and isn't)
+
+**It is:**
+- A **single consolidated advisor** — one `index.html` file plus one data file, no separate tools or backends to juggle.
+- A **live draft-day tracker**: log picks as they happen and get updated recommendations instantly.
+- A **decision-support layer**: multi-source ADP, positional scarcity alerts, and GM insight notes (workload security, offensive environment, coaching/scheme impact, contract outlook, injury durability, competition for touches, and breakout/decline signals) to help you weigh a pick beyond raw rankings.
+
+**It is not:**
+- A trade simulator — it doesn't predict other teams' picks or optimize post-draft trades.
+- A live-syncing app — there's no backend or API; you log every pick manually.
+- A guaranteed source of truth — GM insight notes are directional draft-prep context, not verified real-time reporting. **Refresh player and GM insight data before draft day** (see [Keeping data fresh](#-keeping-data-fresh) below), since injuries, depth charts, and contract situations can change quickly during the preseason.
 
 ---
 
@@ -37,7 +51,7 @@ Built for serious fantasy managers who want data-driven draft decisions in a hig
 2. **Read the recommendations:**
    - Top 12 available players ranked by value
    - Multi-source ADP (FantasyPros, Yahoo, ESPN, DraftKings)
-   - GM notes on role, scheme fit, contract status
+   - GM insight notes: workload security, offensive environment, coaching/scheme impact, contract outlook, injury durability, competition for touches, and breakout/decline signal
    - Risk assessment (Low/Medium/High)
 
 3. **Watch for alerts:**
@@ -87,21 +101,30 @@ If one source rates a player way different:
 - ✅ Player ADP 10 on FantasyPros, ADP 14 on Yahoo = **OPPORTUNITY**
 - You're getting better value than half the industry thinks
 
-#### GM Notes
+#### GM Insights
 ```
 Ja'Marr Chase
 WR1 - Primary receiver, high-volume target
+Workload: Entrenched WR1 - team's clear No. 1 target with elite target share
+Offense: Joe Burrow-led passing attack; expected to lead the team in targets again
+...
 ```
-- **Role:** What's his job on the field?
-- **Scheme Fit:** Does the new offense use him?
-- **Contract Status:** Locked in or at risk?
+Each player card includes:
+- **Workload security:** How locked-in is his role on the depth chart?
+- **Offensive environment:** What's the quarterback/scheme situation around him?
+- **Coaching/scheme impact:** Is a new coordinator or scheme changing his usage?
+- **Contract outlook:** Extension, contract year, rookie deal, or free-agency risk — softened to avoid stale, overly specific claims
+- **Injury/durability notes:** Current status plus any recurring durability concerns
+- **Competition for touches/targets:** Who else on the roster is fighting for his volume?
+- **Breakout/decline indicator:** Is his outlook trending up, stable, or risky?
+- **Confidence/freshness tag:** Flags whether a note was manually verified against recent reporting or is a preliminary heuristic that should be double-checked before draft day
 
 #### Risk Level
 - 🟢 **Low** = Locked-in role, healthy, contract security
 - 🟡 **Medium** = Injury history, role uncertainty, contract year
 - 🔴 **High** = High bust risk, multiple concerns
 
-*Why it matters:* A player's ADP might be great, but if he's contract year (could be traded), that changes value.
+*Why it matters:* A player's ADP might be great, but if his role, contract, or health situation looks shaky, that changes his value.
 
 ---
 
@@ -118,30 +141,27 @@ Running history of every pick:
 ## 🎯 How to Use This for GM Strategy
 
 ### Example 1: Avoiding Reach Alerts
-**Scenario:** You're on the clock, considering Bijan Robinson (RB, ADP 2.08)
-- Dashboard shows: "FP: 2.1, Yahoo: 2.0, Consensus: 2.08"
+**Scenario:** You're on the clock, considering a player near ADP 2.08
+- Dashboard shows tight consensus across FantasyPros, Yahoo, ESPN, and DraftKings
 - Low variance = Market agrees, no shop alert
-- **Decision:** If you need RB, this is fair value
+- **Decision:** If you need the position, this is fair value
 
 ### Example 2: Spotting Value
-**Scenario:** Travis Etienne (RB) appears in recommendations
-- Dashboard shows: "FP: 11.0, Yahoo: 9.5, Consensus: 10.2"
-- **ADP Variance: 1.5** (Shop Alert!)
-- Yahoo undervalues him, FantasyPros likes him
-- **Decision:** Could be a steal depending on league bias
+**Scenario:** A player appears in recommendations with a wide ADP spread across sources
+- **ADP Variance** flagged as a Shop Alert!
+- One source undervalues him relative to others
+- **Decision:** Could be a steal depending on your league's bias
 
 ### Example 3: Positional Blocking
-**Scenario:** Only 3 elite RBs left, 4 teams need RB
+**Scenario:** Only a few elite RBs left, several teams still need RB
 - **CRITICAL Scarcity Alert** appears
 - You need WR, not RB, but...
 - **Decision:** Grab the RB anyway or get blocked? This alert helps you decide.
 
-### Example 4: Contract Year Risk
-**Scenario:** Saquon Barkley (RB)
-- Dashboard shows: "Contract year - could be trade candidate"
-- ADP: 2.7 (very early)
+### Example 4: Contract/Role Risk
+**Scenario:** A player's GM insight card flags a contract-year situation and moderate competition for touches
 - **Risk: Medium**
-- **Decision:** Great player, but mid-season trade risk. Is that worth it?
+- **Decision:** Great talent, but the volume isn't guaranteed. Is that worth the pick this early?
 
 ---
 
@@ -155,7 +175,7 @@ Running history of every pick:
 
 ### Laptop
 - ✅ Bigger recommendations panel
-- ✅ Easier to read GM notes
+- ✅ Easier to read GM insight notes
 - ⚠️ Less portable
 - ⚠️ Slower to input with 1-min clock
 
@@ -169,8 +189,8 @@ Running history of every pick:
 
 | File | Purpose |
 |------|---------|
-| `index.html` | Main dashboard (open this file) |
-| `data/players.json` | Player data, ADP rankings, GM notes |
+| `index.html` | Main dashboard (open this file) — the entire app in one static page, no backend |
+| `data/players.json` | Player data, ADP rankings, GM insight notes |
 | `README.md` | This file |
 
 ### Data Sources
@@ -181,10 +201,12 @@ Running history of every pick:
 - ESPN - major sports media rankings
 - DraftKings - sportsbook rankings (different scoring)
 
-**GM Intelligence:**
-- Role/Scheme: Team depth charts, coach/OC tendencies
-- Contract Status: Public contracts, extension eligibility
-- Risk Level: Injury history, role uncertainty, age
+**GM Insights:**
+- Workload security, offensive environment, and coaching/scheme impact: depth charts, coach/OC tendencies, and offensive context
+- Contract outlook: publicly reported contract situations, softened to avoid stale or overly specific claims
+- Injury/durability notes: current status plus recurring durability concerns
+- Competition for touches/targets and breakout/decline indicator: how contested a player's role is and which direction his outlook is trending
+- Confidence/freshness tag: whether a note is manually verified or a preliminary heuristic to re-check before draft day
 
 ### Scoring System
 Dashboard is configured for your league:
@@ -201,15 +223,21 @@ Dashboard is configured for your league:
 - Doesn't optimize post-draft trades
 - Use it for: Real-time draft decisions only
 
-### Data is Current as of Sept 2025
-- ADP changes throughout preseason
-- Consider updating player data mid-preseason if draft is late
-- GM notes based on current team rosters (pre-draft)
-
 ### Manual Input Required
 - You log picks as they happen (quick clicks)
 - No auto-sync with Yahoo Fantasy
 - 1-minute clock = no time for fancy automation
+
+---
+
+## 🔄 Keeping data fresh
+
+`data/players.json` includes a `metadata.last_updated` field and a `data_freshness_warning` note instead of a hard-coded date, because ADP and GM insight notes go stale quickly. Before you rely on this tool for a real draft:
+
+- **Re-check ADP** against current FantasyPros/Yahoo/ESPN/DraftKings rankings — the numbers in this repo are a starting point, not live data.
+- **Re-check GM insight notes**, especially any player whose `gm_insights.confidence` field says it's a preliminary/heuristic note rather than a manually verified one.
+- **Watch for last-minute news:** injuries, suspensions, depth-chart changes, and trades can all invalidate a note within days of your draft.
+- **Add players as needed:** edit `data/players.json` following the existing schema (each player needs `rank`, `name`, `position`, `nfl_team`, `adp`, `bye_week`, `injury_status`, `role`, `risk_level`, and a `gm_insights` object).
 
 ---
 
@@ -246,7 +274,7 @@ Post-draft, you can analyze: "Did I predict scheme fits correctly?" "Were my ris
 
 ### "I need to add more players"
 - Edit `data/players.json`
-- Follow the format of existing players
+- Follow the format of existing players (see [Keeping data fresh](#-keeping-data-fresh))
 - Refresh the dashboard
 
 ---
@@ -262,8 +290,7 @@ Post-draft, you can analyze: "Did I predict scheme fits correctly?" "Were my ris
 - Make sure files are in the same folder
 
 **Want to improve it?**
-- This is a starting point—Phase 2 coming post-draft
-- After draft ends, we'll add deeper analysis
+- This repo is the single, consolidated version of the tool — contribute directly here rather than maintaining a separate prototype
 
 ---
 
@@ -271,14 +298,10 @@ Post-draft, you can analyze: "Did I predict scheme fits correctly?" "Were my ris
 
 Remember:
 - **Speed matters:** Log picks fast, make decisions faster
-- **Trust the data:** Multi-source ADP + GM notes = edge
+- **Trust the data, but verify it:** Multi-source ADP + GM insights = an edge, as long as you've refreshed them recently
 - **Stay flexible:** Scarcity alerts tell you when to pivot
 - **Learn:** Review draft log post-draft to understand market tendencies
 
-Your son's got this. 💪
-
 ---
 
-**Version:** 1.0  
-**Last Updated:** Sept 1, 2025  
 **League:** 219725 (10-team, PPR)
