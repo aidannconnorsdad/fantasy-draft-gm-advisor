@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantasy Draft GM Advisor - Live Companion</title>
+    <title>Fantasy Draft GM Advisor - 2026 Live Draft Companion</title>
     <style>
         * {
             margin: 0;
@@ -213,6 +213,24 @@
             font-style: italic;
         }
         
+        .pick-insights {
+            font-size: 0.78em;
+            color: #ccc;
+            margin-bottom: 8px;
+            line-height: 1.4;
+        }
+        
+        .pick-insights strong {
+            color: #00d4ff;
+        }
+        
+        .pick-confidence {
+            font-size: 0.75em;
+            color: #aaa;
+            font-style: italic;
+            margin-bottom: 8px;
+        }
+        
         .adp-comparison {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -352,7 +370,7 @@
     <div class="container">
         <header>
             <h1>⚡ Fantasy Draft GM Advisor</h1>
-            <p class="subtitle">Real-Time Draft Companion | Multi-Source ADP | Positional Scarcity Alerts</p>
+            <p class="subtitle">2026 Draft Companion | Real-Time Multi-Source ADP | Positional Scarcity Alerts | GM Insights</p>
         </header>
         
         <!-- Draft Input Section -->
@@ -457,11 +475,12 @@
                 const response = await fetch('data/players.json');
                 const data = await response.json();
                 
-                // Flatten all players from different tiers
+                // Flatten all players from different tiers (some tiers are optional,
+                // so fall back to an empty array if a section isn't present in the data file)
                 draftState.allPlayers = [
-                    ...data.players,
-                    ...data.te_tier_1,
-                    ...data.qb_tier_1
+                    ...(data.players || []),
+                    ...(data.te_tier_1 || []),
+                    ...(data.qb_tier_1 || [])
                 ];
                 
                 // Sort by consensus ADP
@@ -642,6 +661,37 @@
             return max - min;
         }
         
+        // Renders the richer GM insight fields (workload security, offensive
+        // environment, coaching/scheme impact, contract outlook, injury
+        // durability, competition for touches, breakout/decline indicator).
+        // Defensive against missing/partial data so older or hand-edited
+        // player entries don't break rendering.
+        function buildGmInsightsHtml(player) {
+            const insights = player.gm_insights || {};
+            const rows = [
+                ['Workload', insights.workload_security],
+                ['Offense', insights.offensive_environment],
+                ['Scheme', insights.coaching_scheme_impact],
+                ['Contract', insights.contract_outlook],
+                ['Health', insights.injury_durability],
+                ['Competition', insights.competition_for_touches],
+                ['Trend', insights.breakout_decline_indicator]
+            ].filter(([, value]) => Boolean(value));
+            
+            if (rows.length === 0) {
+                return '';
+            }
+            
+            const rowsHtml = rows
+                .map(([label, value]) => `<div><strong>${label}:</strong> ${value}</div>`)
+                .join('');
+            const confidenceHtml = insights.confidence
+                ? `<div class="pick-confidence">🔎 ${insights.confidence}</div>`
+                : '';
+            
+            return `<div class="pick-insights">${rowsHtml}</div>${confidenceHtml}`;
+        }
+        
         function updateRecommendations() {
             const yourPicks = draftState.picks.filter(p => p.team === draftState.yourTeamName);
             const availablePlayers = draftState.allPlayers.slice(0, 12); // Top 12 available
@@ -653,13 +703,14 @@
                 availablePlayers.forEach((player, idx) => {
                     const variance = getAdpVariance(player);
                     const varianceClass = variance > 2 ? 'adp-variance' : '';
+                    const insightsHtml = buildGmInsightsHtml(player);
                     
                     html += `
                         <div class="recommended-pick" onclick="selectPlayer('${player.name}', '${player.position}')">
                             <div class="pick-rank">Rank #${idx + 1} Available</div>
                             <div class="pick-name">${player.name}</div>
                             <div class="pick-team">${player.nfl_team} • ${player.position}</div>
-                            <div class="pick-role">${player.role}</div>
+                            <div class="pick-role">${player.role || ''}</div>
                             <div class="adp-comparison">
                                 <div class="adp-source">FP: ${player.adp.fantasypros.toFixed(1)}</div>
                                 <div class="adp-source">Yahoo: ${player.adp.yahoo.toFixed(1)}</div>
@@ -667,8 +718,9 @@
                             </div>
                             ${variance > 2 ? `<div class="adp-variance">Variance: ${variance.toFixed(1)} (Shop Alert!)</div>` : ''}
                             <div class="risk-badge ${getRiskBadgeClass(player.risk_level)}">
-                                Risk: ${player.risk_level}
+                                Risk: ${player.risk_level || 'Unknown'}
                             </div>
+                            ${insightsHtml}
                         </div>
                     `;
                 });
