@@ -3,8 +3,10 @@
     "league_id": 219725,
     "scoring_format": "PPR",
     "reception_points": 0.5,
-    "last_updated": "2025-09-01",
-    "note": "Multi-source ADP data aggregated from FantasyPros, Yahoo, ESPN, and DraftKings. Consensus is the average of all four sources."
+    "last_updated": "Preseason 2026",
+    "note": "Multi-source ADP data aggregated from FantasyPros, Yahoo, ESPN, and DraftKings. Consensus is the average of all four sources. GM insight fields (workload security, offensive environment, coaching/scheme impact, contract outlook, injury durability, competition for touches, breakout/decline indicator) are directional draft-prep notes, not guarantees -- re-check beat-writer news and depth charts before draft day.",
+    "draft_season": 2026,
+    "data_freshness_warning": "Player notes and ADP should be refreshed against current news shortly before your draft; situations (injuries, depth charts, contracts) can change quickly in the preseason."
   },
   "players": [
     {
@@ -22,9 +24,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "WR1 - Primary receiver, high-volume target",
-      "scheme_fit": "Joe Burrow top target, elite ceiling",
-      "contract_status": "Under contract through 2025, extension eligible",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Entrenched WR1 - team's clear No. 1 target with elite target share",
+        "offensive_environment": "Joe Burrow-led passing attack; expected to lead the team in targets again",
+        "coaching_scheme_impact": "Continuity in scheme and quarterback play supports a repeatable elite role",
+        "contract_outlook": "No contract disputes reported entering the season",
+        "injury_durability": "Healthy entering camp with no notable injury history",
+        "competition_for_touches": "Minimal - clear alpha over the rest of the Cincinnati WR room",
+        "breakout_decline_indicator": "Stable - among the safest elite floor/ceiling combos at the position",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 2,
@@ -41,9 +51,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, pass-catching upside",
-      "scheme_fit": "Falcons commit heavy volume, strong role security",
-      "contract_status": "2nd year contract, locked in long-term",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Locked-in bell-cow after signing a record three-year extension; Tyler Allgeier's departure clears the depth chart",
+        "offensive_environment": "Atlanta's offensive centerpiece with heavy volume in both run and pass game",
+        "coaching_scheme_impact": "Scheme built around him; no coaching change disrupting his role",
+        "contract_outlook": "Signed a three-year, $75M extension ($51M guaranteed) - contract situation resolved and no longer a concern",
+        "injury_durability": "Healthy entering camp, no injury report",
+        "competition_for_touches": "Very low after Tyler Allgeier's exit; expected career-high workload",
+        "breakout_decline_indicator": "Ascending - workload is trending up year over year",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 3,
@@ -60,9 +78,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "RB1 - Heavy workload, goal-line back",
-      "scheme_fit": "Eagles strong run game, new scheme fits his skillset",
-      "contract_status": "Contract year - could be trade candidate",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Still the Eagles' lead back, but entering his age-29 season with heavy career mileage",
+        "offensive_environment": "Philadelphia's run-first identity remains intact",
+        "coaching_scheme_impact": "Same offensive infrastructure as his record-setting prior season",
+        "contract_outlook": "No new mega-extension expected; treat as a prove-it/valued-veteran situation rather than a trade risk",
+        "injury_durability": "Healthy for camp, but age and accumulated touches are a real decline risk to monitor",
+        "competition_for_touches": "Low direct competition, though snap counts could be managed later in the season",
+        "breakout_decline_indicator": "Decline risk - age/mileage make him more volatile than the very top tier",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 4,
@@ -79,9 +105,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, pass-catching specialist",
-      "scheme_fit": "Ben Johnson offense built for Gibbs, elite upside",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Detroit's clear lead back; David Montgomery's departure to Houston removes his main competition",
+        "offensive_environment": "High-powered Lions offense with an improved offensive line",
+        "coaching_scheme_impact": "Scheme continues to be built around his pass-catching skill set",
+        "contract_outlook": "Signed a market-setting extension this offseason - long-term security in place",
+        "injury_durability": "Healthy entering the season",
+        "competition_for_touches": "Low after Montgomery's exit; expect expanded red-zone role",
+        "breakout_decline_indicator": "Ascending - consensus RB1 with workload and red-zone opportunity both increasing",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 5,
@@ -98,9 +132,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR1 - Primary receiver, volume leader",
-      "scheme_fit": "Dak's top target, consistent volume",
-      "contract_status": "Under contract, eligible for extension",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Remains Dallas's top receiving option with strong target volume",
+        "offensive_environment": "Dak Prescott-led passing attack still funnels targets his way",
+        "coaching_scheme_impact": "No scheme disruption reported; continuity at OC",
+        "contract_outlook": "Extension-eligible with no contentious negotiations reported this offseason",
+        "injury_durability": "Healthy for camp",
+        "competition_for_touches": "Low - still the clear No. 1 in the Dallas passing game",
+        "breakout_decline_indicator": "Stable - reliable weekly floor with WR1 upside",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 6,
@@ -117,9 +159,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR1 - Elite receiver, target hog",
-      "scheme_fit": "Vikings passing offense, consistent target share",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Elite target hog; healthier entering camp than a year ago",
+        "offensive_environment": "Minnesota expected to lean more pass-heavy with a new quarterback under center",
+        "coaching_scheme_impact": "Offensive approach still funnels heavy target share his way",
+        "contract_outlook": "Signed a major extension last year - contract situation settled",
+        "injury_durability": "Healthy entering camp",
+        "competition_for_touches": "Low - remains the clear No. 1 option",
+        "breakout_decline_indicator": "Stable - elite floor with the potential for a target-share bump",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 7,
@@ -136,9 +186,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "WR1 - C.J. Stroud's top option",
-      "scheme_fit": "New offensive system, elite QB, high volume expected",
-      "contract_status": "Under contract, extension likely",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Leads Houston's WR corps with a high, stable target share",
+        "offensive_environment": "Quarterback stability supports a strong floor",
+        "coaching_scheme_impact": "No disruptive coaching change reported",
+        "contract_outlook": "No contract disputes reported",
+        "injury_durability": "Healthy, no red flags",
+        "competition_for_touches": "Low to moderate depending on Houston's other pass catchers",
+        "breakout_decline_indicator": "Stable to ascending after last season's breakout",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 8,
@@ -155,9 +213,17 @@
       "bye_week": 9,
       "injury_status": "Recovering from injury",
       "role": "WR1/Slot - High-volume target, slot specialist",
-      "scheme_fit": "Ben Johnson offense, perfect fit for role",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "High-volume slot role with three straight top-3 PPR seasons",
+        "offensive_environment": "Ben Johnson-style offense and Detroit's softer schedule support consistency",
+        "coaching_scheme_impact": "Scheme continuity supports a repeatable role",
+        "contract_outlook": "No contract drama reported this offseason",
+        "injury_durability": "Healthy, no notable injury history",
+        "competition_for_touches": "Low - his slot role is close to guaranteed volume",
+        "breakout_decline_indicator": "Stable - one of the safest high-floor picks at the position",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 9,
@@ -174,9 +240,17 @@
       "bye_week": 8,
       "injury_status": "Recent back issues",
       "role": "WR1 - Primary target for Stafford",
-      "scheme_fit": "Stafford chemistry established, high ceiling",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Finished last season as the WR1 overall; still a clear focal point of the passing game",
+        "offensive_environment": "Established chemistry with Matthew Stafford",
+        "coaching_scheme_impact": "No scheme change reported",
+        "contract_outlook": "Entering a contract year, which adds motivation but also some offseason uncertainty",
+        "injury_durability": "Dealt with a lower-back issue in camp; expected ready for Week 1 but worth monitoring",
+        "competition_for_touches": "Low - remains the top target in the Rams passing game",
+        "breakout_decline_indicator": "Slight risk flag from the back injury, but upside remains elite if healthy",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 10,
@@ -193,9 +267,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RB1 - Goal-line back, red zone specialist",
-      "scheme_fit": "Ravens run-heavy scheme, elite opportunity",
-      "contract_status": "1-year deal, free agent after 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Continues as Baltimore's goal-line/early-down back with a run-heavy scheme behind him",
+        "offensive_environment": "Ravens remain one of the league's most run-committed offenses",
+        "coaching_scheme_impact": "Scheme unchanged and still tailored to his power running style",
+        "contract_outlook": "Signed with Baltimore; no holdout or dispute reported",
+        "injury_durability": "No major injuries reported, but age and career workload are legitimate durability risks",
+        "competition_for_touches": "Low on early downs, though passing-down work is limited",
+        "breakout_decline_indicator": "Boom/bust profile - volume stays high but age raises decline risk",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 11,
@@ -212,9 +294,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back in Sean McVay offense",
-      "scheme_fit": "McVay pass-catching back system, ideal fit",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Locked in as the Rams' starter with no clear timeshare threat",
+        "offensive_environment": "Sean McVay's system continues to feature him in the run and passing game",
+        "coaching_scheme_impact": "Scheme continuity supports a stable role",
+        "contract_outlook": "Playing on his current contract with no reported dispute; extension timeline worth monitoring",
+        "injury_durability": "Healthy entering Week 1",
+        "competition_for_touches": "Low to moderate depending on how the Rams use their backfield depth",
+        "breakout_decline_indicator": "Stable - consistent top-15 to top-18 profile",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 12,
@@ -231,9 +321,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR2 - Second option, developing role",
-      "scheme_fit": "Falcons building WR corps, improving trajectory",
-      "contract_status": "Under contract, young talent",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Falcons building WR corps, improving trajectory",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Falcons building WR corps, improving trajectory",
+        "contract_outlook": "Under contract, young talent",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 13,
@@ -250,9 +348,17 @@
       "bye_week": 8,
       "injury_status": "Recovering from knee",
       "role": "RB1 - Elite when healthy, pass-catching",
-      "scheme_fit": "Kyle Shanahan system perfect for CMC",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Still San Francisco's featured back when available, in both the run and pass game",
+        "offensive_environment": "Kyle Shanahan's system remains built around his dual-threat skill set",
+        "coaching_scheme_impact": "No scheme change reported",
+        "contract_outlook": "Under contract with San Francisco; no dispute reported",
+        "injury_durability": "No new injuries reported, but his recent injury history keeps him a game-to-game watch",
+        "competition_for_touches": "Low when healthy, but touches evaporate quickly if he's out",
+        "breakout_decline_indicator": "High-ceiling/high-risk - elite production when active, but availability is the swing factor",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 14,
@@ -269,9 +375,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "WR1 - Premier receiving talent, primary option",
-      "scheme_fit": "Giants rebuilding, high target share expected",
-      "contract_status": "Rookie contract, long-term asset",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Giants rebuilding, high target share expected",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Giants rebuilding, high target share expected",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 15,
@@ -288,9 +402,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, elite college production",
-      "scheme_fit": "Raiders high-draft investment, feature back role",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Consensus feature back for the Raiders on a rookie-scale role",
+        "offensive_environment": "High draft investment signals a large, built-in workload",
+        "coaching_scheme_impact": "Scheme is being built to feature him early in his career",
+        "contract_outlook": "On his rookie contract - no financial uncertainty",
+        "injury_durability": "Dealt with a preseason leg injury with no definitive return timeline as of this note - monitor closely",
+        "competition_for_touches": "Low if healthy, but the injury could open a short-term timeshare",
+        "breakout_decline_indicator": "High-upside rookie, but the leg injury adds real near-term risk",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 16,
@@ -307,9 +429,17 @@
       "bye_week": 6,
       "injury_status": "Healthy",
       "role": "RB1/2 - Explosive pass-catching back, part of committee",
-      "scheme_fit": "Dolphins speed-based scheme, big-play upside",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Featured back after David Montgomery's move to Houston increases his workload and red-zone chances",
+        "offensive_environment": "Miami's speed-based scheme maximizes his big-play ability",
+        "coaching_scheme_impact": "Scheme remains tailored to his explosiveness",
+        "contract_outlook": "On his rookie contract - no financial uncertainty",
+        "injury_durability": "Healthy entering the season, no major injury notes",
+        "competition_for_touches": "Lower than in past seasons after Montgomery's departure",
+        "breakout_decline_indicator": "Ascending - efficiency and expanded role point toward a top-10 outcome",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 17,
@@ -326,9 +456,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "WR1/2 - High-talent young receiver",
-      "scheme_fit": "Jaguars rebuilding receiving corps, opportunity",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Jaguars rebuilding receiving corps, opportunity",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Jaguars rebuilding receiving corps, opportunity",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 18,
@@ -345,9 +483,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "RB1 - Power back, goal-line specialist",
-      "scheme_fit": "Packers run-heavy approach, strong volume",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Green Bay's lead back, though touches could be managed as the season progresses",
+        "offensive_environment": "Packers remain committed to a physical run game",
+        "coaching_scheme_impact": "No scheme change reported",
+        "contract_outlook": "Already signed with Green Bay; no contract uncertainty",
+        "injury_durability": "Carries minor knee/thigh durability concerns from last season worth monitoring",
+        "competition_for_touches": "Low to moderate depending on Green Bay's backfield depth",
+        "breakout_decline_indicator": "Slight decline risk - age and durability keep him just outside the elite tier",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 19,
@@ -364,9 +510,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "WR1 - Elite talent, contract situation",
-      "scheme_fit": "Eagles pass offense, target share questions",
-      "contract_status": "Under contract through 2029",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Eagles pass offense, target share questions",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Eagles pass offense, target share questions",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 20,
@@ -383,9 +537,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, volume producer",
-      "scheme_fit": "Colts rushing attack, primary option",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Remains Indianapolis's clear workhorse when healthy",
+        "offensive_environment": "Colts' rushing attack continues to feature him as the primary option",
+        "coaching_scheme_impact": "No scheme change reported",
+        "contract_outlook": "Previously extended with the Colts; not in a holdout or dispute",
+        "injury_durability": "Healthy entering the season",
+        "competition_for_touches": "Low - true bell-cow role",
+        "breakout_decline_indicator": "Stable - top-tier workhorse profile when on the field",
+        "confidence": "Verified via 2026 offseason reporting"
+      }
     },
     {
       "rank": 21,
@@ -402,9 +564,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, primary carrier",
-      "scheme_fit": "Bengals ground game priority, strong volume",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Bengals ground game priority, strong volume",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bengals ground game priority, strong volume",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 22,
@@ -421,9 +591,17 @@
       "bye_week": 6,
       "injury_status": "Healthy",
       "role": "WR1 - Elite speed, contract year talk",
-      "scheme_fit": "Dolphins vertical passing scheme, big-play threat",
-      "contract_status": "Under contract, trade rumors persist",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Dolphins vertical passing scheme, big-play threat",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Dolphins vertical passing scheme, big-play threat",
+        "contract_outlook": "Trade speculation has circulated - monitor situation closely",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 23,
@@ -440,9 +618,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR1 - Top target, new QB situation",
-      "scheme_fit": "Jets offense in transition, still lead receiver",
-      "contract_status": "Under contract, extension eligible",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Jets offense in transition, still lead receiver",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Jets offense in transition, still lead receiver",
+        "contract_outlook": "Under contract, extension eligible",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 24,
@@ -459,9 +645,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "TE1 - Elite prospect, high pass-catching upside",
-      "scheme_fit": "Raiders offense built around him",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Raiders offense built around him",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Raiders offense built around him",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 25,
@@ -478,9 +672,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee back, explosive runner",
-      "scheme_fit": "Seahawks new OC scheme, shared touches",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Seahawks new OC scheme, shared touches",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Seahawks new OC scheme, shared touches",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 26,
@@ -497,9 +699,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "TE1 - Primary target, elite talent",
-      "scheme_fit": "Cardinals passing offense, high target share",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Cardinals passing offense, high target share",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cardinals passing offense, high target share",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 27,
@@ -516,9 +726,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, contract year motivation",
-      "scheme_fit": "Bills balanced offense, goal-line competition",
-      "contract_status": "Contract year, extension talks ongoing",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Bills balanced offense, goal-line competition",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bills balanced offense, goal-line competition",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 28,
@@ -535,9 +753,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "TE1 - Elite blocker and receiver, health concern",
-      "scheme_fit": "49ers offense, dual-threat role",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "49ers offense, dual-threat role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - 49ers offense, dual-threat role",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 29,
@@ -554,9 +780,17 @@
       "bye_week": 9,
       "injury_status": "Recovering from prior ACL",
       "role": "RB1 - Lead back, receiving role",
-      "scheme_fit": "Jets new offense, health still monitored",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Jets new offense, health still monitored",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Jets new offense, health still monitored",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "Coming off an injury (Recovering from prior ACL) - confirm full clearance before drafting",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 30,
@@ -573,9 +807,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "TE1 - Primary receiving option",
-      "scheme_fit": "Ben Johnson offense, consistent volume",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Ben Johnson offense, consistent volume",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ben Johnson offense, consistent volume",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 31,
@@ -592,9 +834,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "RB1 - Veteran lead back, pass-catching",
-      "scheme_fit": "Saints new scheme, aging but productive",
-      "contract_status": "Contract year",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Saints new scheme, aging but productive",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Saints new scheme, aging but productive",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 32,
@@ -611,9 +861,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "WR1 - Elite rookie talent, primary option",
-      "scheme_fit": "Cardinals build around him, high volume expected",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Cardinals build around him, high volume expected",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cardinals build around him, high volume expected",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 33,
@@ -630,9 +888,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, goal-line role",
-      "scheme_fit": "Texans commit to run game, veteran presence",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Texans commit to run game, veteran presence",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Texans commit to run game, veteran presence",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 34,
@@ -649,9 +915,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR1 - Emerging as top target",
-      "scheme_fit": "Chargers pass offense, slot specialist",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chargers pass offense, slot specialist",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chargers pass offense, slot specialist",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 35,
@@ -668,9 +942,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "WR1/2 - Veteran target, new team",
-      "scheme_fit": "Rams pass offense, chemistry building",
-      "contract_status": "1-year deal",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Rams pass offense, chemistry building",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Rams pass offense, chemistry building",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 36,
@@ -687,9 +969,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, injury history",
-      "scheme_fit": "Cardinals run-first scheme, bell-cow role",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Cardinals run-first scheme, bell-cow role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cardinals run-first scheme, bell-cow role",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 37,
@@ -706,9 +996,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR1 - Reliable target, contract situation",
-      "scheme_fit": "Commanders passing offense, veteran leader",
-      "contract_status": "Contract year, extension talks",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Commanders passing offense, veteran leader",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Commanders passing offense, veteran leader",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 38,
@@ -725,9 +1023,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "WR1 - New team, contract extension signed",
-      "scheme_fit": "Steelers vertical scheme, new QB chemistry",
-      "contract_status": "Signed extension, long-term deal",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Steelers vertical scheme, new QB chemistry",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Steelers vertical scheme, new QB chemistry",
+        "contract_outlook": "Recently signed a long-term extension - contract stability is not a concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 39,
@@ -744,9 +1050,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "QB1 - Elite dual-threat, MVP caliber",
-      "scheme_fit": "Bills offense built around his rushing/passing",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bills offense built around his rushing/passing",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bills offense built around his rushing/passing",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 40,
@@ -763,9 +1077,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "QB1 - Elite dual-threat, high ceiling",
-      "scheme_fit": "Ravens run-heavy scheme, elite rushing floor",
-      "contract_status": "Under contract through 2028",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Ravens run-heavy scheme, elite rushing floor",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ravens run-heavy scheme, elite rushing floor",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 41,
@@ -782,9 +1104,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "WR1 - Emerging primary target",
-      "scheme_fit": "Seahawks new OC, expanded route tree",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Seahawks new OC, expanded route tree",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Seahawks new OC, expanded route tree",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 42,
@@ -801,9 +1131,17 @@
       "bye_week": 6,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee back, veteran",
-      "scheme_fit": "Vikings shared backfield, efficient runner",
-      "contract_status": "Contract year",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Vikings shared backfield, efficient runner",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Vikings shared backfield, efficient runner",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 43,
@@ -820,9 +1158,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "QB1 - Young talent, dual-threat upside",
-      "scheme_fit": "Commanders offense built around mobility",
-      "contract_status": "Rookie contract",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Commanders offense built around mobility",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Commanders offense built around mobility",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 44,
@@ -839,9 +1185,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "WR2 - Consistent secondary option",
-      "scheme_fit": "Eagles pass offense, shares targets with Brown",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Eagles pass offense, shares targets with Brown",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Eagles pass offense, shares targets with Brown",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 45,
@@ -858,9 +1212,17 @@
       "bye_week": 14,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee role, new coaching staff",
-      "scheme_fit": "Patriots rebuilding offense, uncertain volume",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Patriots rebuilding offense, uncertain volume",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Patriots rebuilding offense, uncertain volume",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 46,
@@ -877,9 +1239,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "RB1 - Lead back, new team",
-      "scheme_fit": "Titans commit to run game, bounce-back candidate",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Titans commit to run game, bounce-back candidate",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Titans commit to run game, bounce-back candidate",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 47,
@@ -896,9 +1266,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "TE1 - Red zone target, veteran",
-      "scheme_fit": "Ravens run-heavy scheme, TD-dependent",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Ravens run-heavy scheme, TD-dependent",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ravens run-heavy scheme, TD-dependent",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 48,
@@ -915,9 +1293,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR1 - Consistent touchdown producer",
-      "scheme_fit": "Buccaneers pass offense, red zone target",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Buccaneers pass offense, red zone target",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Buccaneers pass offense, red zone target",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 49,
@@ -934,9 +1320,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee with Gibbs, goal-line role",
-      "scheme_fit": "Lions strong offensive line, shared touches",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Lions strong offensive line, shared touches",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Lions strong offensive line, shared touches",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 50,
@@ -953,9 +1347,17 @@
       "bye_week": 6,
       "injury_status": "Healthy",
       "role": "WR2 - Secondary option behind Hill",
-      "scheme_fit": "Dolphins speed offense, deep threat role",
-      "contract_status": "Under contract, extension signed",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Dolphins speed offense, deep threat role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Dolphins speed offense, deep threat role",
+        "contract_outlook": "Recently signed a long-term extension - contract stability is not a concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 51,
@@ -972,9 +1374,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "QB1 - Elite passer, championship pedigree",
-      "scheme_fit": "Chiefs offense, receiving corps questions",
-      "contract_status": "Under contract through 2031",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chiefs offense, receiving corps questions",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chiefs offense, receiving corps questions",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 52,
@@ -991,9 +1401,17 @@
       "bye_week": 11,
       "injury_status": "Injury history (concussions)",
       "role": "WR1 - Primary target, injury concerns",
-      "scheme_fit": "Saints new scheme, target share uncertain",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Entrenched starter with a clear, primary role in the offense",
+        "offensive_environment": "Saints new scheme, target share uncertain",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Saints new scheme, target share uncertain",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "Carries a notable injury history (Injury history (concussions)) - durability is a real question mark; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 53,
@@ -1010,9 +1428,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "WR1/2 - Slot receiver, big-play ability",
-      "scheme_fit": "Ravens run-heavy scheme limits target volume",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Ravens run-heavy scheme limits target volume",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ravens run-heavy scheme limits target volume",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 54,
@@ -1029,9 +1455,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "QB1 - Dual-threat, goal-line rushing role",
-      "scheme_fit": "Eagles run-heavy scheme, tush push value",
-      "contract_status": "Under contract through 2028",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Eagles run-heavy scheme, tush push value",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Eagles run-heavy scheme, tush push value",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 55,
@@ -1048,9 +1482,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "WR1/2 - Speed threat, growing role",
-      "scheme_fit": "Chiefs offense, target competition",
-      "contract_status": "Rookie contract",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Chiefs offense, target competition",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chiefs offense, target competition",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 56,
@@ -1067,9 +1509,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "QB1 - Elite pocket passer, high volume",
-      "scheme_fit": "Bengals pass-heavy offense, elite weapons",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bengals pass-heavy offense, elite weapons",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bengals pass-heavy offense, elite weapons",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 57,
@@ -1086,9 +1536,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR2 - Deep threat, boom/bust profile",
-      "scheme_fit": "Lions pass offense, big-play role",
-      "contract_status": "Under contract, extension eligible",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Lions pass offense, big-play role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Lions pass offense, big-play role",
+        "contract_outlook": "Under contract, extension eligible",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 58,
@@ -1105,9 +1563,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "RB1/2 - Lead back opportunity, new team",
-      "scheme_fit": "Cowboys need a workhorse, contract year",
-      "contract_status": "Contract year",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Cowboys need a workhorse, contract year",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cowboys need a workhorse, contract year",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 59,
@@ -1124,9 +1590,17 @@
       "bye_week": 10,
       "injury_status": "Recovering from injury",
       "role": "RB1/2 - Lead back when healthy",
-      "scheme_fit": "Chiefs run scheme, competition for touches",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Chiefs run scheme, competition for touches",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chiefs run scheme, competition for touches",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "Coming off an injury (Recovering from injury) - confirm full clearance before drafting; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 60,
@@ -1143,9 +1617,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "WR1/2 - Developing young talent",
-      "scheme_fit": "Bears new offense, target share growing",
-      "contract_status": "Rookie contract",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Bears new offense, target share growing",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Bears new offense, target share growing",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 61,
@@ -1162,9 +1644,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "QB1 - Elite young passer",
-      "scheme_fit": "Texans new offensive system, high ceiling",
-      "contract_status": "Rookie contract",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Texans new offensive system, high ceiling",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Texans new offensive system, high ceiling",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 62,
@@ -1181,9 +1671,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR1 - Veteran lead target",
-      "scheme_fit": "Broncos passing offense, red zone role",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Broncos passing offense, red zone role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Broncos passing offense, red zone role",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 63,
@@ -1200,9 +1698,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee back, pass-catching role",
-      "scheme_fit": "Buccaneers shared backfield, receiving specialist",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Buccaneers shared backfield, receiving specialist",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Buccaneers shared backfield, receiving specialist",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 64,
@@ -1219,9 +1725,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "TE1 - Reliable target, new team",
-      "scheme_fit": "Broncos passing offense, PPR friendly",
-      "contract_status": "1-year deal",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Broncos passing offense, PPR friendly",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Broncos passing offense, PPR friendly",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 65,
@@ -1238,9 +1752,17 @@
       "bye_week": 12,
       "injury_status": "Recovering from ACL",
       "role": "TE1 - Lead target when healthy",
-      "scheme_fit": "Vikings passing offense, health concern",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Vikings passing offense, health concern",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Vikings passing offense, health concern",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "Coming off an injury (Recovering from ACL) - confirm full clearance before drafting; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 66,
@@ -1257,9 +1779,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee role, goal-line back",
-      "scheme_fit": "Commanders shared backfield, power runner",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Commanders shared backfield, power runner",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Commanders shared backfield, power runner",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 67,
@@ -1276,9 +1806,17 @@
       "bye_week": 10,
       "injury_status": "Recovering from injury/suspension uncertainty",
       "role": "WR1 - Lead target when available",
-      "scheme_fit": "Chiefs passing offense, availability questions",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chiefs passing offense, availability questions",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chiefs passing offense, availability questions",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "Coming off an injury (Recovering from injury/suspension uncertainty) - confirm full clearance before drafting; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 68,
@@ -1295,9 +1833,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "TE1 - Boom/bust talent, inconsistent usage",
-      "scheme_fit": "Falcons offense underutilizes him historically",
-      "contract_status": "Contract year",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Falcons offense underutilizes him historically",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Falcons offense underutilizes him historically",
+        "contract_outlook": "Playing on an expiring deal - added motivation, some trade/relocation risk",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 69,
@@ -1314,9 +1860,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "RB1/2 - Committee back, pass-catching specialist",
-      "scheme_fit": "Steelers shared backfield, receiving role",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Steelers shared backfield, receiving role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Steelers shared backfield, receiving role",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 70,
@@ -1333,9 +1887,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "QB1 - Rushing upside, accuracy concerns",
-      "scheme_fit": "Colts offense built around his athleticism",
-      "contract_status": "Rookie contract",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Colts offense built around his athleticism",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Colts offense built around his athleticism",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 71,
@@ -1352,9 +1914,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "TE1 - Reliable target, QB uncertainty",
-      "scheme_fit": "Browns offense in flux",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Browns offense in flux",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Browns offense in flux",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 72,
@@ -1371,9 +1941,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "RB1/2 - New team, committee role",
-      "scheme_fit": "Chargers new backfield mate, veteran volume",
-      "contract_status": "1-year deal, contract year",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Chargers new backfield mate, veteran volume",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Chargers new backfield mate, veteran volume",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 73,
@@ -1390,9 +1968,17 @@
       "bye_week": 8,
       "injury_status": "Injury history",
       "role": "WR2 - Veteran target, new team",
-      "scheme_fit": "Seahawks offense, health and role uncertain",
-      "contract_status": "1-year deal",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Seahawks offense, health and role uncertain",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Seahawks offense, health and role uncertain",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "Carries a notable injury history (Injury history) - durability is a real question mark; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 74,
@@ -1409,9 +1995,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "QB1 - Dual-threat, consistent rushing floor",
-      "scheme_fit": "Cardinals offense, rushing production key",
-      "contract_status": "Under contract through 2028",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Cardinals offense, rushing production key",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cardinals offense, rushing production key",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 75,
@@ -1428,9 +2022,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "TE1/2 - Secondary option in run-heavy offense",
-      "scheme_fit": "Eagles run-first scheme limits target volume",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Eagles run-first scheme limits target volume",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Eagles run-first scheme limits target volume",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 76,
@@ -1447,9 +2049,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR1 - Lead target, QB uncertainty",
-      "scheme_fit": "Browns offense in flux, target competition",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Browns offense in flux, target competition",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Browns offense in flux, target competition",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 77,
@@ -1466,9 +2076,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "WR1 - Veteran lead receiver",
-      "scheme_fit": "Titans rebuilding passing attack",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Titans rebuilding passing attack",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Titans rebuilding passing attack",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 78,
@@ -1485,9 +2103,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "RB1/2 - Lead back opportunity, injury history",
-      "scheme_fit": "Broncos ground game, prove-it deal",
-      "contract_status": "1-year prove-it deal",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Broncos ground game, prove-it deal",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Broncos ground game, prove-it deal",
+        "contract_outlook": "1-year prove-it deal",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 79,
@@ -1504,9 +2130,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "QB1 - Elite pocket passer, injury history",
-      "scheme_fit": "Cowboys pass-heavy scheme",
-      "contract_status": "Under contract through 2028",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Cowboys pass-heavy scheme",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cowboys pass-heavy scheme",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 80,
@@ -1523,9 +2157,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR2 - Hybrid role, new team",
-      "scheme_fit": "Commanders offense, versatile usage",
-      "contract_status": "Traded, 1-year remaining",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Commanders offense, versatile usage",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Commanders offense, versatile usage",
+        "contract_outlook": "Traded, 1-year remaining",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 81,
@@ -1542,9 +2184,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "QB1 - Young talent, new coaching staff",
-      "scheme_fit": "Bears new offense, high variance",
-      "contract_status": "Rookie contract",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bears new offense, high variance",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Bears new offense, high variance",
+        "contract_outlook": "On a rookie-scale deal - contract stability locked in for multiple seasons",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 82,
@@ -1561,9 +2211,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "WR2 - Veteran possession receiver",
-      "scheme_fit": "Chargers new scheme, reduced role possible",
-      "contract_status": "1-year deal",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Chargers new scheme, reduced role possible",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Chargers new scheme, reduced role possible",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 83,
@@ -1580,9 +2238,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "QB1 - Elite arm talent, limited rushing",
-      "scheme_fit": "Chargers new scheme, low rushing floor",
-      "contract_status": "Under contract through 2029",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chargers new scheme, low rushing floor",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Chargers new scheme, low rushing floor",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 84,
@@ -1599,9 +2265,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "RBBC - Committee back behind Jeanty",
-      "scheme_fit": "Raiders backup role, limited standalone value",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "High"
+      "risk_level": "High",
+      "gm_insights": {
+        "workload_security": "Shares touches in a committee/rotation - workload can swing week to week",
+        "offensive_environment": "Raiders backup role, limited standalone value",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Raiders backup role, limited standalone value",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Meaningful competition on the depth chart - touches/targets are not guaranteed",
+        "breakout_decline_indicator": "High bust risk - multiple concerns stacked together",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 85,
@@ -1618,9 +2292,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "TE1 - Reliable underneath target",
-      "scheme_fit": "Cowboys passing offense, consistent role",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Cowboys passing offense, consistent role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cowboys passing offense, consistent role",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 86,
@@ -1637,9 +2319,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "TE1 - Developing receiving option",
-      "scheme_fit": "Bills offense, target competition",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bills offense, target competition",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bills offense, target competition",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 87,
@@ -1656,9 +2346,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "RBBC - Backup/change of pace behind Bijan",
-      "scheme_fit": "Falcons deep backfield, touchdown-dependent",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "High"
+      "risk_level": "High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Falcons deep backfield, touchdown-dependent",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Falcons deep backfield, touchdown-dependent",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "High bust risk - multiple concerns stacked together",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 88,
@@ -1675,9 +2373,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "QB1 - Efficient pocket passer",
-      "scheme_fit": "Lions high-powered offense, low rushing floor",
-      "contract_status": "Under contract through 2028",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Lions high-powered offense, low rushing floor",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Lions high-powered offense, low rushing floor",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 89,
@@ -1694,9 +2400,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "TE1/2 - Emerging red zone target",
-      "scheme_fit": "Packers offense, growing role",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Packers offense, growing role",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Packers offense, growing role",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 90,
@@ -1713,9 +2427,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "QB1 - Efficient system passer",
-      "scheme_fit": "49ers offense, extension signed",
-      "contract_status": "Under contract, extension signed",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "49ers offense, extension signed",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - 49ers offense, extension signed",
+        "contract_outlook": "Recently signed a long-term extension - contract stability is not a concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 91,
@@ -1732,9 +2454,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "WR2 - Possession receiver, new team",
-      "scheme_fit": "Browns passing offense, target competition",
-      "contract_status": "1-year deal",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Browns passing offense, target competition",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Browns passing offense, target competition",
+        "contract_outlook": "One-year/prove-it deal - lower long-term security, performance-driven future",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 92,
@@ -1751,9 +2481,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "QB1 - Pocket passer, inconsistent results",
-      "scheme_fit": "Jaguars offense, needs consistency",
-      "contract_status": "Under contract through 2030",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Jaguars offense, needs consistency",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Jaguars offense, needs consistency",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 93,
@@ -1770,9 +2508,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "WR2/3 - Slot receiver, veteran depth",
-      "scheme_fit": "Texans deep receiving corps, limited target share",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Complementary role - volume depends on the players ahead of him and game script",
+        "offensive_environment": "Texans deep receiving corps, limited target share",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Texans deep receiving corps, limited target share",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Competes behind a clear WR1/RB1 for high-value touches",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 94,
@@ -1789,9 +2535,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "TE2 - Steady possession receiver",
-      "scheme_fit": "Bears new offense, uncertain target share",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium-High"
+      "risk_level": "Medium-High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bears new offense, uncertain target share",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - Bears new offense, uncertain target share",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Real decline or bust risk this season",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 95,
@@ -1808,9 +2562,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "TE2 - Change of pace, injury history",
-      "scheme_fit": "Ravens rotational role behind Andrews",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "High"
+      "risk_level": "High",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Ravens rotational role behind Andrews",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ravens rotational role behind Andrews",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported; overall risk profile suggests treating him as injury-prone until proven otherwise",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "High bust risk - multiple concerns stacked together",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 96,
@@ -1827,9 +2589,17 @@
       "bye_week": 9,
       "injury_status": "N/A",
       "role": "DEF1 - Elite pass rush and coverage unit",
-      "scheme_fit": "Aggressive scheme generates turnovers",
-      "contract_status": "N/A",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Aggressive scheme generates turnovers",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Aggressive scheme generates turnovers",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 97,
@@ -1846,9 +2616,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "K1 - Elite leg strength, high-volume offense",
-      "scheme_fit": "Cowboys pass-heavy offense, long FG range",
-      "contract_status": "Under contract through 2027",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Cowboys pass-heavy offense, long FG range",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Cowboys pass-heavy offense, long FG range",
+        "contract_outlook": "Signed long-term - contract stability is not a near-term concern",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 98,
@@ -1865,9 +2643,17 @@
       "bye_week": 8,
       "injury_status": "N/A",
       "role": "DEF1 - Talented front seven",
-      "scheme_fit": "Disruptive defensive line, injury-dependent",
-      "contract_status": "N/A",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Disruptive defensive line, injury-dependent",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Disruptive defensive line, injury-dependent",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 99,
@@ -1884,9 +2670,17 @@
       "bye_week": 9,
       "injury_status": "N/A",
       "role": "DEF1 - Micah Parsons-led pass rush",
-      "scheme_fit": "High sack and turnover upside",
-      "contract_status": "N/A",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "High sack and turnover upside",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - High sack and turnover upside",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 100,
@@ -1903,9 +2697,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "K1 - Veteran accuracy leader",
-      "scheme_fit": "Ravens efficient offense, consistent scoring",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Ravens efficient offense, consistent scoring",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Ravens efficient offense, consistent scoring",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 101,
@@ -1922,9 +2724,17 @@
       "bye_week": 9,
       "injury_status": "N/A",
       "role": "DEF1 - Elite defensive talent",
-      "scheme_fit": "Strong pass rush, secondary questions",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Strong pass rush, secondary questions",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Strong pass rush, secondary questions",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 102,
@@ -1941,9 +2751,17 @@
       "bye_week": 9,
       "injury_status": "N/A",
       "role": "DEF1 - Elite defensive line",
-      "scheme_fit": "Myles Garrett-led pass rush",
-      "contract_status": "N/A",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Myles Garrett-led pass rush",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Myles Garrett-led pass rush",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 103,
@@ -1960,9 +2778,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "K1 - High-powered offense kicker",
-      "scheme_fit": "Bills efficient scoring offense",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bills efficient scoring offense",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bills efficient scoring offense",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 104,
@@ -1979,9 +2805,17 @@
       "bye_week": 10,
       "injury_status": "Healthy",
       "role": "K1 - Reliable veteran kicker",
-      "scheme_fit": "Chiefs red zone efficiency",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chiefs red zone efficiency",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chiefs red zone efficiency",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 105,
@@ -1998,9 +2832,17 @@
       "bye_week": 5,
       "injury_status": "Healthy",
       "role": "K1 - Consistent veteran kicker",
-      "scheme_fit": "Steelers efficient red zone offense",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Steelers efficient red zone offense",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Steelers efficient red zone offense",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 106,
@@ -2017,9 +2859,17 @@
       "bye_week": 5,
       "injury_status": "N/A",
       "role": "DEF1 - Veteran pass rush unit",
-      "scheme_fit": "Consistent defensive scheme, turnover generation",
-      "contract_status": "N/A",
-      "risk_level": "Low"
+      "risk_level": "Low",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Consistent defensive scheme, turnover generation",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Consistent defensive scheme, turnover generation",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Stable - locked into a proven, low-variance role",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 107,
@@ -2036,9 +2886,17 @@
       "bye_week": 12,
       "injury_status": "N/A",
       "role": "DEF1 - Aggressive, young unit",
-      "scheme_fit": "Vance Joseph scheme generates pressure",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Vance Joseph scheme generates pressure",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Vance Joseph scheme generates pressure",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 108,
@@ -2055,9 +2913,17 @@
       "bye_week": 8,
       "injury_status": "Healthy",
       "role": "K1 - Starting kicker, consistent offense",
-      "scheme_fit": "49ers scoring offense, job security questions",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "49ers scoring offense, job security questions",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - 49ers scoring offense, job security questions",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 109,
@@ -2074,9 +2940,17 @@
       "bye_week": 7,
       "injury_status": "N/A",
       "role": "DEF1 - Balanced, opportunistic defense",
-      "scheme_fit": "Strong coaching, takeaway focused",
-      "contract_status": "N/A",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Strong coaching, takeaway focused",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Strong coaching, takeaway focused",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 110,
@@ -2093,9 +2967,17 @@
       "bye_week": 9,
       "injury_status": "Healthy",
       "role": "K1 - Reliable veteran leg",
-      "scheme_fit": "Falcons offense, consistent scoring drives",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Falcons offense, consistent scoring drives",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Falcons offense, consistent scoring drives",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 111,
@@ -2112,9 +2994,17 @@
       "bye_week": 5,
       "injury_status": "N/A",
       "role": "DEF1 - Deep talented roster",
-      "scheme_fit": "New coordinator, high ceiling",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "New coordinator, high ceiling",
+        "coaching_scheme_impact": "New coaching staff/scheme element introduces added offseason uncertainty - New coordinator, high ceiling",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 112,
@@ -2131,9 +3021,17 @@
       "bye_week": 6,
       "injury_status": "Healthy",
       "role": "K1 - Volume-based kicker",
-      "scheme_fit": "Dolphins offense generates scoring chances",
-      "contract_status": "Under contract through 2026",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Dolphins offense generates scoring chances",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Dolphins offense generates scoring chances",
+        "contract_outlook": "Deal runs through this season - extension or free agency decision looms",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 113,
@@ -2150,9 +3048,17 @@
       "bye_week": 6,
       "injury_status": "N/A",
       "role": "DEF2 - Speed-based scheme",
-      "scheme_fit": "Boom/bust turnover generation",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Boom/bust turnover generation",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Boom/bust turnover generation",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 114,
@@ -2169,9 +3075,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "K1 - Strong leg, young kicker",
-      "scheme_fit": "Chargers offense, emerging red zone unit",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Chargers offense, emerging red zone unit",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Chargers offense, emerging red zone unit",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 115,
@@ -2188,9 +3102,17 @@
       "bye_week": 7,
       "injury_status": "Healthy",
       "role": "K1 - Clutch veteran kicker",
-      "scheme_fit": "Bengals pass-heavy scoring offense",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Low-Medium"
+      "risk_level": "Low-Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Bengals pass-heavy scoring offense",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Bengals pass-heavy scoring offense",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Slight breakout upside if his role expands as expected",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 116,
@@ -2207,9 +3129,17 @@
       "bye_week": 11,
       "injury_status": "N/A",
       "role": "DEF2 - Developing talented unit",
-      "scheme_fit": "Improving pass rush, inconsistent results",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Improving pass rush, inconsistent results",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Improving pass rush, inconsistent results",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 117,
@@ -2226,9 +3156,17 @@
       "bye_week": 11,
       "injury_status": "Healthy",
       "role": "K1 - Consistent veteran leg",
-      "scheme_fit": "Texans developing offense",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Texans developing offense",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Texans developing offense",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 118,
@@ -2245,9 +3183,17 @@
       "bye_week": 10,
       "injury_status": "N/A",
       "role": "DEF2 - Opportunistic, veteran-led",
-      "scheme_fit": "Steady scheme, limited big-play upside",
-      "contract_status": "N/A",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Steady scheme, limited big-play upside",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Steady scheme, limited big-play upside",
+        "contract_outlook": "No contract data on file - verify team/roster status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     },
     {
       "rank": 119,
@@ -2264,9 +3210,17 @@
       "bye_week": 12,
       "injury_status": "Healthy",
       "role": "K1 - Veteran journeyman kicker",
-      "scheme_fit": "Packers efficient offense",
-      "contract_status": "Under contract through 2025",
-      "risk_level": "Medium"
+      "risk_level": "Medium",
+      "gm_insights": {
+        "workload_security": "Role looks stable based on the current depth chart, but has not been independently reverified",
+        "offensive_environment": "Packers efficient offense",
+        "coaching_scheme_impact": "Scheme continuity from last season supports a repeatable role - Packers efficient offense",
+        "contract_outlook": "Deal covered last season - confirm current contract/team status before draft day",
+        "injury_durability": "No durability red flags reported",
+        "competition_for_touches": "Limited competition based on current depth chart",
+        "breakout_decline_indicator": "Swing skill - monitor camp/preseason usage for role changes",
+        "confidence": "Preliminary heuristic note - confirm with current beat-writer/depth-chart news before draft day"
+      }
     }
   ],
   "scarcity_thresholds": {
